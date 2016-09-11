@@ -2,6 +2,11 @@
 
 include("Telegram.php");
 
+$bot_id = "292565579:AAGIVqv0vGm3G1pIgVwd0_8QVwgmRpuYfBs";
+$telegram = new Telegram($bot_id);
+$text = $telegram->Text();
+$chat_id = $telegram->ChatID();
+
 //foto
 if ($text == "/foto") {
 	$telegram->sendPhoto(array('chat_id' => $chat_id, 'photo' => new CURLFile("./assets/leanne.jpg")));
