@@ -33,6 +33,16 @@ else if ($text == "/oan") {
 }
 
 //tekst
+else if ($text == "/leafde") {
+	$telegram->sendMessage(array('chat_id' => $chat_id, 'text' => "Ik hoar fan dy"));
+}
+
+//tekst
+else if ($text == "/ekfandy") {
+	$telegram->sendMessage(array('chat_id' => $chat_id, 'text' => "Ik hoar ek fan dy leave"));
+}
+
+//tekst
 else if ($text == "/bekje") {
 	$telegram->sendMessage(array('chat_id' => $chat_id, 'text' => "Hoar dy 't bekje mar even ticht, leave."));
 }
