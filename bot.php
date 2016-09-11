@@ -22,6 +22,11 @@ else if ($text == "/goeiedei") {
 	$telegram->sendMessage(array('chat_id' => $chat_id, 'text' => "Hoeist mei jimme op dizze moaie dei?."));
 }
 
+//tekst
+else if ($text == "/rûgeltsjes") {
+	$telegram->sendMessage(array('chat_id' => $chat_id, 'text' => "Mat dr ek nog ien rûgeltsjes op bôle ha?"));
+}
+
 //sticker
 else if ($text == "/sticker") {
 	$telegram->sendSticker(array('chat_id' => $chat_id, 'sticker' => 'BQADBAADEwADbkngC6ANL5qYiJcwAg' ));
