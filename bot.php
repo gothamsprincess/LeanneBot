@@ -27,6 +27,16 @@ else if ($text == "/rûgeltsjes") {
 	$telegram->sendMessage(array('chat_id' => $chat_id, 'text' => "Mat dr ek nog ien rûgeltsjes op bôle ha?"));
 }
 
+//tekst
+else if ($text == "/oan") {
+	$telegram->sendMessage(array('chat_id' => $chat_id, 'text' => "It giet oan!"));
+}
+
+//tekst
+else if ($text == "/bekje") {
+	$telegram->sendMessage(array('chat_id' => $chat_id, 'text' => "Hoar dy 't bekje mar even ticht, leave."));
+}
+
 //sticker
 else if ($text == "/sticker") {
 	$telegram->sendSticker(array('chat_id' => $chat_id, 'sticker' => 'BQADBAADEwADbkngC6ANL5qYiJcwAg' ));
