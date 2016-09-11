@@ -14,7 +14,7 @@ if ($text == "/foto") {
 
 //tekst
 else if ($text == "/tekst") {
-	$telegram->sendMessage(array('chat_id' => $chat_id, 'text' => "kek"));
+	$telegram->sendMessage(array('chat_id' => $chat_id, 'text' => "Bûter, Brea en Griene Tsiis, wa dat net sizze kin is gjin oprjochte Fries."));
 }
 
 //sticker
