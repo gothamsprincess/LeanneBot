@@ -17,6 +17,11 @@ else if ($text == "/tekst") {
 	$telegram->sendMessage(array('chat_id' => $chat_id, 'text' => "Bûter, Brea en Griene Tsiis, wa dat net sizze kin is gjin oprjochte Fries."));
 }
 
+//tekst
+else if ($text == "/goeiedei") {
+	$telegram->sendMessage(array('chat_id' => $chat_id, 'text' => "Hoeist mei jimme op dizze moaie dei?."));
+}
+
 //sticker
 else if ($text == "/sticker") {
 	$telegram->sendSticker(array('chat_id' => $chat_id, 'sticker' => 'BQADBAADEwADbkngC6ANL5qYiJcwAg' ));
