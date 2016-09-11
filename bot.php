@@ -18,7 +18,7 @@ else if ($text == "/frysk") {
 }
 
 //tekst
-else if ($text == "/willem") {
+else if ($text == "/willem85") {
 	$telegram->sendMessage(array('chat_id' => $chat_id, 'text' => "Willem siet yn de olvestêdetocht fan '85"));
 }
 
