@@ -18,6 +18,21 @@ else if ($text == "/frysk") {
 }
 
 //tekst
+else if ($text == "/willem") {
+	$telegram->sendMessage(array('chat_id' => $chat_id, 'text' => "Willem siet yn de olvestêdetocht fan '85"));
+}
+
+//tekst
+else if ($text == "/haadsted") {
+	$telegram->sendMessage(array('chat_id' => $chat_id, 'text' => "Ljouwert is de haadstêd fan Fryslân"));
+}
+
+//tekst
+else if ($text == "/frlboppe") {
+	$telegram->sendMessage(array('chat_id' => $chat_id, 'text' => "Fryslân Boppe!"));
+}
+
+//tekst
 else if ($text == "/goeiedei") {
 	$telegram->sendMessage(array('chat_id' => $chat_id, 'text' => "Hoeist mei jimme op dizze moaie dei?."));
 }
