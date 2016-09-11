@@ -1,13 +1,11 @@
 <?php
-ini_set('display_errors', 'On');
-error_reporting(E_ALL | E_STRICT);
 class Telegram {
 
     private $data = array();
     private $updates = array();
 
     public function getToken() {
-        $bot_id = file_get_contents('./ignore/token');
+        $bot_id = "HIER KOMT JE TOKEN";
     }
 	
     public function __construct($bot_id) {
