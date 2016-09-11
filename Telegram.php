@@ -5,7 +5,7 @@ class Telegram {
     private $updates = array();
 
     public function getToken() {
-        $bot_id = "HIER KOMT JE TOKEN";
+        $bot_id = "292565579:AAGIVqv0vGm3G1pIgVwd0_8QVwgmRpuYfBs";
     }
 	
     public function __construct($bot_id) {
