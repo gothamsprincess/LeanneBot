@@ -18,6 +18,22 @@ else if ($text == "/frysk") {
 }
 
 //tekst
+else if ($text == "/nijskierrig") {
+	$telegram->sendMessage(array('chat_id' => $chat_id, 'text' => "Do nijskierrige hin!"));
+}
+
+//tekst
+else if ($text == "/moat") {
+	$telegram->sendMessage(array('chat_id' => $chat_id, 'text' => "Als 't net kin sa als t moat, dan moat it mar sa 't it kin."));
+}
+
+//tekst
+else if ($text == "/hert") {
+	$telegram->sendMessage(array('chat_id' => $chat_id, 'text' => "Wa't in Fries ienkear yn it hert slûten hat, is der min wer út te krijen."));
+}
+
+
+//tekst
 else if ($text == "/willem85") {
 	$telegram->sendMessage(array('chat_id' => $chat_id, 'text' => "Willem siet yn de olvestêdetocht fan '85"));
 }
