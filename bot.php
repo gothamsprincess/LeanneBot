@@ -23,6 +23,17 @@ else if ($text == "/willem85") {
 }
 
 //tekst
+else if ($text == "/sok") {
+	$telegram->sendMessage(array('chat_id' => $chat_id, 'text' => "Sokkebolje op"));
+}
+
+//tekst
+else if ($text == "/ok") {
+	$telegram->sendMessage(array('chat_id' => $chat_id, 'text' => "Ok famke"));
+}
+
+
+//tekst
 else if ($text == "/haadsted") {
 	$telegram->sendMessage(array('chat_id' => $chat_id, 'text' => "Ljouwert is de haadstêd fan Fryslân"));
 }
