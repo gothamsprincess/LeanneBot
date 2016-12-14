@@ -32,12 +32,6 @@ else if ($text == "/hert") {
 	$telegram->sendMessage(array('chat_id' => $chat_id, 'text' => "Wa't in Fries ienkear yn it hert slûten hat, is der min wer út te krijen."));
 }
 
-
-//tekst
-else if ($text == "/willem85") {
-	$telegram->sendMessage(array('chat_id' => $chat_id, 'text' => "Willem siet yn de olvestêdetocht fan '85"));
-}
-
 //tekst
 else if ($text == "/sok") {
 	$telegram->sendMessage(array('chat_id' => $chat_id, 'text' => "Sokkebolje op"));
@@ -46,12 +40,6 @@ else if ($text == "/sok") {
 //tekst
 else if ($text == "/ok") {
 	$telegram->sendMessage(array('chat_id' => $chat_id, 'text' => "Ok famke"));
-}
-
-
-//tekst
-else if ($text == "/haadsted") {
-	$telegram->sendMessage(array('chat_id' => $chat_id, 'text' => "Ljouwert is de haadstêd fan Fryslân"));
 }
 
 //tekst
@@ -65,7 +53,7 @@ else if ($text == "/goeiedei") {
 }
 
 //tekst
-else if ($text == "/rûgeltsjes") {
+else if ($text == "/rugeltsjes") {
 	$telegram->sendMessage(array('chat_id' => $chat_id, 'text' => "Mat dr ek nog ien rûgeltsjes op bôle ha?"));
 }
 
