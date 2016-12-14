@@ -77,6 +77,11 @@ else if ($text == "/bekje") {
 	$telegram->sendMessage(array('chat_id' => $chat_id, 'text' => "Hoar dy 't bekje mar even ticht, leave."));
 }
 
+//tekst
+else if ($text == "/piet") {
+	$telegram->sendMessage(array('chat_id' => $chat_id, 'text' => "Oant moarn!"));
+}
+
 //sticker
 else if ($text == "/sticker") {
 	$telegram->sendSticker(array('chat_id' => $chat_id, 'sticker' => 'BQADBAADEwADbkngC6ANL5qYiJcwAg' ));
