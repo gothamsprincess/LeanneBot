@@ -38,8 +38,8 @@ else if ($text == "/sok") {
 }
 
 //tekst
-else if ($text == "/ok") {
-	$telegram->sendMessage(array('chat_id' => $chat_id, 'text' => "Ok famke"));
+else if ($text == "/hjerst") {
+	$telegram->sendMessage(array('chat_id' => $chat_id, 'text' => "It leafst soe ik yn myn poeiermolke krûpe"));
 }
 
 //tekst
@@ -49,7 +49,7 @@ else if ($text == "/frlboppe") {
 
 //tekst
 else if ($text == "/goeiedei") {
-	$telegram->sendMessage(array('chat_id' => $chat_id, 'text' => "Hoeist mei jimme op dizze moaie dei?."));
+	$telegram->sendMessage(array('chat_id' => $chat_id, 'text' => "Hoeist mei jimme op dizze moaie dei?"));
 }
 
 //tekst
@@ -81,6 +81,17 @@ else if ($text == "/bekje") {
 else if ($text == "/piet") {
 	$telegram->sendMessage(array('chat_id' => $chat_id, 'text' => "Oant moarn!"));
 }
+
+//tekst
+else if ($text == "/leaf") {
+	$telegram->sendMessage(array('chat_id' => $chat_id, 'text' => "Ik fyn dy leaf!"));
+}
+
+//tekst
+else if ($text == "/grutsk") {
+	$telegram->sendMessage(array('chat_id' => $chat_id, 'text' => "Ik bin grutsk op dy!"));
+}
+
 
 //sticker
 else if ($text == "/sticker") {
